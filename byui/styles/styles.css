@@ -12,6 +12,11 @@ a {
   margin: 40px;
 }
 
+#active {
+  background-color: white;
+  color: steelblue;
+}
+
 h1 {
   color: steelblue;
 }
