@@ -14,25 +14,40 @@ h1:hover {
 }
 
 img {
-    width: 15em;
+    margin-top: 1em;
+    width: 10em;
+    margin-bottom: 1.5em;
 }
 
-ol {    
+ol {
+    margin: 0 auto;
     text-align: left;
-    width: 17em;
+    width: 25em;
     font-size: 0.8em;
 }
 
 .statement {
     font: 1.8em serif;
     color: white;
+    margin: 0 auto;
+    width: 9em;
 }
 
 .white {
     color:white;
+    font-size: 0.9em;
 }
 
 .whitesmall {
     color:white;
     font-size: 0.8em;
+    margin: 0 auto;
+    width: 31em;
+}
+
+.person {
+    padding-top: 2em;
+    font-size: 0.7em;
+    margin: 0 auto;
+    width: 23em;
 }
