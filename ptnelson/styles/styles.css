@@ -39,9 +39,9 @@ ol {
 }
 
 .whitesmall {
+    margin: 0 auto;
     color:white;
     font-size: 0.8em;
-    margin: 0 auto;
     width: 31em;
 }
 
