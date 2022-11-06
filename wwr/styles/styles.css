@@ -1,6 +1,7 @@
 #content {
     max-width: 1600px;
     margin: 0 auto;
+    text-align: center;
 }
 
 nav a {
@@ -22,31 +23,38 @@ main section {
 }
 
 #background {
+    text-align: center;
     height: 725px;
 }
 
 body {
+    text-align: center;
     background-color: #fcfbfb; 
 }
 
 header {
+    text-align: center;
     background-color:rgba(20,30,13, .7);
 }
 
 nav a:hover {
+    text-align: center;
     background-color: black;
     color: #d9c2a3;
 }
 
 .logo{
+    text-align: center;
     width: 80px;    
 }
 
 .icon {
+    text-align: center;
     width: 80px;
 }
 
 #hero-img{
+    text-align: center;
     width: 100%;
 }
 
@@ -63,9 +71,11 @@ footer a{
 }
 
 footer p {
+    text-align: center;
     font-size: 1.2em;
 }
 
 footer p a:hover {
+    text-align: center;
     text-decoration: underline;
 }
