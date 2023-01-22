@@ -6,7 +6,7 @@
 
 nav a {
     text-align: center;
-    color: #fcfbfb;
+    color: blue;
     text-decoration: none;
 }
 
@@ -60,13 +60,13 @@ nav a:hover {
 
 .book, .join{
     text-align: center;
-    color: #fcfbfb;
+    color: blue;
     text-decoration: none;
 }
 
 footer a{
     text-align: center;
-    color: #fcfbfb;
+    color: blue;
     text-decoration: none; 
 }
 
