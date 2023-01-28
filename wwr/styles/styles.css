@@ -67,6 +67,7 @@ nav a:hover {
 
 .book:hover, .join:hover{
     background-color: #65b891;
+    color:rgb(0, 179, 255)
 }
 
 #background{
@@ -80,6 +81,7 @@ nav a:hover {
 
 footer{
     background-color: bisque;
+    color:black;
 }
 
 footer a{
@@ -96,4 +98,25 @@ footer p {
 footer p a:hover {
     text-align: center;
     text-decoration: underline;
+    color:rgb(0, 179, 255)
+}
+
+.home-title{
+    color: black;
+}
+
+#linespace{
+    height: 25px;
+}
+
+h4{
+    color: #65b891;
+}
+
+.msg h2{
+    color:#65b891;
+}
+
+.msg p{
+    color:black
 }
