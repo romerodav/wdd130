@@ -62,6 +62,24 @@ nav a:hover {
     text-align: center;
     color: blue;
     text-decoration: none;
+    background-color: white;
+}
+
+.book:hover, .join:hover{
+    background-color: #65b891;
+}
+
+#background{
+    background-color: #d9c2a3;
+    height: 725px;
+}
+
+.msg{
+    background-color: antiquewhite;
+}
+
+footer{
+    background-color: bisque;
 }
 
 footer a{
