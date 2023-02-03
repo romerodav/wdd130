@@ -1,0 +1,20 @@
+#circles{
+    display: block;
+    margin: 0 auto;
+}
+
+#int{
+    display: block;
+    margin: 0 auto;
+    background-color: #737373;
+    height: 350px;
+    width: 1280px;
+}
+
+.round{
+    display: inline-block;
+    margin: 1.5% 4.1%;
+    height: 85%;
+    border-radius: 50%;
+    border: 10px solid #444444;
+}
