@@ -44,7 +44,7 @@ nav a:hover {
     color: #d9c2a3;
 }
 
-.logo{
+.logo {
     text-align: center;
     width: 80px;    
 }
@@ -54,38 +54,38 @@ nav a:hover {
     width: 80px;
 }
 
-#hero-img{
+#hero-img {
     text-align: center;
     width: 100%;
 }
 
-.book, .join{
+.book, .join {
     text-align: center;
     color: blue;
     text-decoration: none;
     background-color: white;
 }
 
-.book:hover, .join:hover{
+.book:hover, .join:hover {
     background-color: #65b891;
     color: white;
 }
 
-#background{
+#background {
     background-color: #d9c2a3;
     height: 725px;
 }
 
-.msg{
+.msg {
     background-color: antiquewhite;
 }
 
-footer{
+footer {
     background-color: bisque;
     color:black;
 }
 
-footer a{
+footer a {
     text-align: center;
     color: blue;
     text-decoration: none; 
@@ -102,31 +102,35 @@ footer p a:hover {
     color:white;
 }
 
-.home-title{
+.home-title {
     font-family: 'Bungee Spice', cursive;
     color: black;
 }
 
-#linespace{
+#linespace {
     height: 25px;
 }
 
-h4{
+h4 {
     color: #65b891;
 }
 
-.msg h2{
+.msg h2 {
     color:#65b891;
 }
 
-.msg p{
+.msg p {
     color:black
 }
 
-.logo{
+.logo {
     width: 80px;
 }
 
 .icon {
     width: 80px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
 }
