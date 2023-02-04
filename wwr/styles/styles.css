@@ -6,6 +6,7 @@
 
 nav a {
     text-align: center;
+    padding: auto;
     color: #fcfbfb;
     text-decoration: none;
 }
@@ -97,7 +98,7 @@ footer p {
 
 footer p a:hover {
     text-align: center;
-    text-decoration: underline;
+    text-decoration: none;
     color:white;
 }
 
