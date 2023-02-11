@@ -1,0 +1,30 @@
+#cont0{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 100px;
+    justify-content: center;
+    align-content: center;
+    letter-spacing: 10px;
+    display: flex;
+}
+#text0{
+    position: absolute;
+    font-size: 170px;
+    top: 15%
+}
+/*
+#image1{
+    display: inline-flex;
+}
+*/
+#text2{
+    width: 655px;
+    height: 686px;
+    /*height: 655px;*/
+    background: #bcbbbb;
+    color: #9c0e11;
+    font-size: 80px;
+    justify-content: center;
+    align-items: end;
+    display: inline-flex;
+}
