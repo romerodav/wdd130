@@ -154,11 +154,6 @@ nav a:hover {
     box-shadow: 5px 5px 10px #6f7364;
 }
 
-.msg {
-    grid-column: 6/10;
-    grid-row: 6/7;
-}
-
 #background {
     background-color: #d9c2a3;
     height: 725px;
@@ -185,7 +180,6 @@ footer {
 
 footer a {
     text-align: center;
-    color: blue;
     text-decoration: none; 
 }
 
