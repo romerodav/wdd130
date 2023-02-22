@@ -8,9 +8,13 @@
 
 nav a {
     text-align: center;
-    color: #fcfbfb;
+    color: white;
     text-decoration: none;
     padding: 30px 35px;
+}
+
+#act {
+    background-color: #636f3e;
 }
 
 #hero-msg h1, #hero-msg h4 {
