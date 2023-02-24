@@ -98,6 +98,10 @@ p {
     margin-top: 90px;
 }
 
+#river-msg h1, #river-msg h4 {
+    text-align: center;
+}
+
 #river-msg h4 {
     color: white;
 }
@@ -107,7 +111,7 @@ p {
     width: 100%;
 }
 
-.book, .join {
+.book {
     background-color: #937e32;
     color: black;
     text-decoration: none;
@@ -117,7 +121,7 @@ p {
     border-radius: 5px;
 }
 
-.book:hover, .join:hover {
+.book:hover {
     background-color: #65b891;
     color: white;
 }
