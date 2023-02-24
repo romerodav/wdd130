@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Roboto:wght@300&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+body {
+    text-align: center;
+    background-color: #fcfbfb;
+    font-family: arial, 'Roboto', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color:rgba(20,30,13, .7);
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 30px 35px;
+}
+
+nav a:hover {
+    text-align: center;
+    background-color: #495723;
+    color: #d9c2a3;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.logo {
+    text-align: center;
+    width: 80px;
+}
+
+footer {
+    background-color: #636f3e;
+    padding: 25px 50px;
+    margin-top: 200px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    text-align: center;
+    text-decoration: none; 
+}
+
+footer p {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-align: center;
+    text-decoration: none;
+    color: #d0e3da;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
