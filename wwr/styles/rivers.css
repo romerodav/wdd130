@@ -95,7 +95,7 @@ p {
 #river-msg {
     grid-column: 2/3;
     grid-row: 1/2;
-    margin-top: 90px;
+    margin-top: 80px;
 }
 
 #river-msg h1, #river-msg h4 {
@@ -128,5 +128,10 @@ p {
 
 .river-title {
     font-family: 'Bungee Spice';
-    font-size: 2.5em;
+    font-size: 2.4em;
+    margin-bottom: 0;
+}
+
+.button-box {
+    text-align: center;
 }
