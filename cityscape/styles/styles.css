@@ -1,15 +1,17 @@
+body{
+    background: black;
+}
+
 #cont0{
+    margin: 0 auto;
     font-family: Georgia, 'Times New Roman', arial, sans-serif;
-    font-weight: bold;
-   /* letter-spacing: 10px; */
     display: grid;
-   /* grid-template-columns: 1fr 1fr; */
     width: 300px;
     height: 686px;
+    /* background: white; */
 }
 
 #cont2{
-   /* background: white; */
     display: subgrid;
 }
 
