@@ -1,36 +1,82 @@
+@import url('https://fonts.cdnfonts.com/css/gotham');
+
 body{
     background: black;
 }
 
 #cont0{
     margin: 0 auto;
-    font-family: Georgia, 'Times New Roman', arial, sans-serif;
-    display: grid;
+    text-align: center;
     width: 300px;
     height: 686px;
-    /* background: white; */
+    /*font-family: 'Gotham', sans-serif;*/
+    font-family: serif;
+}
+
+img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: block;
 }
 
 #cont2{
-    display: subgrid;
+    background: white;
 }
 
-/*
+#text1{
+    color: #3f5b8b;
+    padding-top: 1.5em;
+}
+
 #text2{
-    color: #9c0e11;
-    font-size: 80px;
-    text-align: center;
-    margin-top: 70%;
+    font-size: xx-large;
 }
 
 #text3{
-    font-size: 170px;
-    text-align: center;
-    margin-top: 11%;
-    z-index: 1;
+    color: #746f74;
+    /*text-overflow: ellipsis;*/
+    overflow: hidden;
+    height: 10em;
+    padding: 1.5em;
+    font-size: 1.2em;
 }
-*/
 
 #cont3{
-    display: subgrid;
+    background: #7e7f80;
+    color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2px;
+    align-content: center;
+    font-size: 0.7em;
+}
+
+#cont3 div{
+    background: #3f5b8b;
+}
+
+sup{
+    vertical-align: super;
+    font-size: small;
+}
+
+.number{
+    font-size: 2em;
+    padding-top: 0.75em;
+}
+
+#left{
+    padding-bottom: 2em;
+    border-bottom-left-radius: 15px;
+}
+
+#center{
+    padding-bottom: 2em;
+}
+
+#right{
+    padding-bottom: 2em;
+    border-bottom-right-radius: 15px
 }
