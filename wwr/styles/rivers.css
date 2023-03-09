@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Roboto:wght@300&display=swap');
 
 body {
-    text-align: center;
     background-color: #fcfbfb;
     font-family: arial, 'Roboto', sans-serif;
     font-size: 22px;
@@ -12,7 +11,7 @@ body {
 #content {
     max-width: 1600px;
     margin: 0 auto;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 header {
@@ -81,7 +80,7 @@ nav a:hover {
 .river-title {
     font-family: 'Bungee Spice';
     font-size: 2.4em;
-    margin-bottom: 0;
+    /*margin-bottom: 0;*/
 }
 
 #river-msg h4 {
@@ -107,6 +106,40 @@ nav a:hover {
     color: white;
 }
 
+h2{
+    text-align: center;
+    margin-top: 0;
+}
+
+.cont{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+  }
+  
+  .accordion {
+    background-color: #636f3e;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #a9a47b;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: #d9c2a3;
+    overflow: hidden;
+  }
+
 p {
     font-family: 'Roboto', sans-serif;
 }
@@ -114,7 +147,7 @@ p {
 footer {
     background-color: #636f3e;
     padding: 25px 50px;
-    margin-top: 200px; 
+    margin-top: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
