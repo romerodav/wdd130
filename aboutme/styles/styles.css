@@ -37,14 +37,23 @@ p{
     padding: 30px;
     border: 10px solid;
     border-color: #a43312;
+    display:grid;
 }
 
-a{
+#sup p:hover{
+    background: #e7c24f;
+}
+
+a:link, a:visited,  a:hover, a:active
+{
     color: #000000;
     text-decoration: none;
 }
 
-#sp{
+#inf{
     align-self: end;
-    place-self: end;
+}
+
+#inf p{
+    text-align: end;
 }
