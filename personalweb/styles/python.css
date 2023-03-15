@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+
+body{
+    font-family: "IM Fell French Canon SC";
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+}
+
+h1, h2 {
+    place-self: center;
+}
+
+#pyth{
+    justify-self: center;
+    place-self: center;
+}
+
+h2{
+    color: #a43312;
+    text-align: center;
+}
+
+p{
+    font-size: 1.1em;
+    font-family: Lato, Helvetica, sans-serif;
+    place-self: center;
+}
+
+#cent{
+    color: #396e94;
+}
+
+#last{
+    margin: auto;
+}
+
+#lastly{
+    color:#396e94;
+}
+
+#logo{
+    padding-left: 20%;
+}
