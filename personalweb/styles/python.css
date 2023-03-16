@@ -41,4 +41,48 @@ p{
 
 #logo{
     padding-left: 20%;
+    display: block;
+}
+
+a:link, a:visited, a:active
+{
+    color: #396e94;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #a43312;
+}
+
+a{
+    font-size: 1.15em;
+}
+
+#sp{
+    padding-left: 35%;
+    font-size: 1.5em;
+}
+
+#first{
+    display: inline;
+}
+
+#second{
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#firstly{
+    align-self: center;
+}
+
+#imagproc{
+    grid-column: 1/4;
+    grid-row: 3/4;
+    justify-self: center;
+}
+
+#cows{
+    place-self: center;
 }
