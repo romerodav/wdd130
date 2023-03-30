@@ -59,7 +59,7 @@ a{
     font-size: 1.15em;
 }
 
-#sp{
+.sp{
     font-size: 1.5em;
 }
 
@@ -95,4 +95,8 @@ a{
     text-align: center;
     grid-column: 1/4;
     margin-top: 15px;
+}
+
+#sep{
+    display: inline;
 }
